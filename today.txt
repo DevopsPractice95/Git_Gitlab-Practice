@@ -1,0 +1,2 @@
+Hi,
+today we are practicing git
