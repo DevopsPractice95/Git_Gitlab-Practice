@@ -1,2 +1,3 @@
 Hi,
 today we are practicing git
+Hi i am punit parida toaday i am teaching git and github
