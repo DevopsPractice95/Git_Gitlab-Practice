@@ -1,0 +1,33 @@
+
+name: Demo GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  demo:
+    name: Demo Job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Print Hello Message
+        run: echo "Hello! GitHub Actions is working."
+
+      - name: Show Current Date
+        run: date
+
+      - name: List Project Files
+        run: ls -la
+
+      - name: Success Message
+        run: echo "Build completed successfully!"
+
